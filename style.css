@@ -1,0 +1,267 @@
+*{
+  color: #black;
+}
+
+.cabecalho{
+  background-color: #f5dadf;
+}
+
+.carousel-control-prev{
+  color: #000000;
+}
+
+.main {
+  max-width: 768px;
+  margin: o auto;
+  padding: 8px;
+  color: black;
+}
+
+h1 {text-align: left;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  margin-left: 50px;
+  /* text-transform: uppercase; */
+  font-size: 36px;
+}
+
+h2 {text-align: center;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  /* text-transform: uppercase; */
+  font-size: 20px;
+}
+
+h3{
+  text-align: center;
+  padding: 8px;
+  /* margin-top: 40px;
+  margin-bottom: 20px; */
+  /*text-transform: uppercase;*/
+  font-size: 20px;
+}
+
+h5{
+  text-align: left;
+  /*padding: 8px;
+   margin-top: 40px;
+  margin-bottom: 20px; */
+  /*text-transform: uppercase;*/
+  font-size: 10px;
+}
+
+h6{text-align: center;
+  /*padding: 8px;
+   margin-top: 40px;
+  margin-bottom: 20px; */
+  /*text-transform: uppercase;*/
+  font-size: 10px;
+}
+
+
+.search-box{
+  height: 400px;
+  background-image: url("/img/home.jpg");
+  background-size: cover;
+  background-position: center center;
+}
+
+ul {
+  list-style:circle;
+  margin: 0px;
+  padding: 0px;
+  margin-bottom: 20px;
+  font-family:  'Roboto';
+  color: "black";
+
+}
+
+.rodape{
+  background-color: #f5dadf;
+}
+
+a {
+  font-family: 'Roboto';
+  color:#000000;
+}
+
+.navbar a {
+  text-transform: uppercase;
+}
+
+.navbar .nav-brand .active {
+  color: white;
+  text-decoration: underline;
+}
+.logo {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+body {
+  font-family: 'Roboto'
+}
+
+/* .barra{
+  width: 500px; /* Largura desejada */
+  height: 40px; /* Altura desejada (opcional) */
+  padding: 10px; /* Espaçamento interno */
+  font-size: 16px; /* Tamanho da fonte */
+  border: 2px solid #ccc; /* Estilo da borda */
+  border-radius: 5px; /* Borda arredondada */;
+} */
+
+#cartas {
+  padding: 50px;
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
+.row{
+  margin:0% auto;
+ 
+  justify-content:center;
+
+  align-items:center;
+}
+
+.contatos2{
+  border: solid 2px white;
+  margin-left: 50px;
+}
+
+
+.imagem1{
+  margin-top: 20px;
+  float: left;
+  width: 480;
+  height: 500;
+  margin-left: 15%;
+}
+
+#esquerda {
+  width: 35%;
+  float: left;
+}
+
+#direita {
+  width: 65%;
+}
+
+.col-md-3{
+  align-self: center;
+  margin: 1%;
+}
+
+.col-md-3 img{
+  border-radius: 5%;
+}
+
+.col-md-5 img{
+  border-radius: 5%;
+}
+
+.seg img {
+  width: 180px;
+  height: 180px;
+  border: 5px solid white;
+  border-radius: 90px;
+  object-fit: cover;
+  box-sizing: border-box;
+}
+
+.ter img {
+  width: 180px;
+  height: 180px;
+  border: 5px solid white;
+  border-radius: 90px;
+  object-fit: cover;
+  box-sizing: border-box;
+}
+
+.qua img {
+  width: 180px;
+  height: 180px;
+  border: 5px solid white;
+  border-radius: 90px;
+  object-fit: cover;
+  box-sizing: border-box;
+}
+
+.qui img {
+  width: 180px;
+  height: 180px;
+  border: 5px solid white;
+  border-radius: 90px;
+  object-fit: cover;
+  box-sizing: border-box;
+}
+
+.sex img {
+  width: 180px;
+  height: 180px;
+  border: 5px solid white;
+  border-radius: 90px;
+  object-fit: cover;
+  box-sizing: border-box;
+}
+
+.sugestoes {
+  display:flex;
+  justify-content: space-between;
+}
+
+section{
+  background-color: #f6c0ca;
+  height: 175px;
+  /* align:center; */
+}
+
+.ingredientes{
+  color: #E7C1CA;
+}
+
+.quantidade{
+font-size: 20px;
+}
+
+.preparação{
+  color: #E7C1CA;
+  margin-left: 15%;
+}
+
+.processo{
+  font-size: 20px;
+  margin-left: 15%;
+}
+
+.avalie{
+  color: #E7C1CA;
+}
+
+.estrelas{
+  color: #F4D150;
+  align-items: center;
+}
+
+.gostar{
+  color: #000000;
+  margin-left: 15%;
+}
+
+.i{
+  color: black;
+  display: flex;
+  flex-direction: row;
+  /*justify-content: space-between;*/
+  justify-content:right;
+}
+
+ .info{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+} 
+
+.botao{
+  color: #E7C1CA;
+}
